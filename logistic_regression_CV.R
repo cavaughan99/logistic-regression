@@ -26,7 +26,7 @@
 
 ##NH11 <- readRDS("dataSets/NatHealth2011.rds")
 ## Read RDS file and put into data frame.
-NH11 <- readRDS("/Users/cavaughan99/Documents/personal stuff/R course/logistic_regression/dataSets/NatHealth2011.rds")
+NH11 <- readRDS("..\NatHealth2011.rds")
 
 labs <- attributes(NH11)$labels
 
